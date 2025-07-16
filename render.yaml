@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: volume-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 7941222275:AAHAAXK5SAtwgxU1rosnMaXOKkYC0n2lPqs
+      - key: CHAT_ID
+        value: 618020152
